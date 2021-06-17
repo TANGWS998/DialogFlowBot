@@ -1,0 +1,59 @@
+body {
+    font: 15px arial, sans-serif;
+    background-color: #F4F6FF;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  
+  #bodybox {
+    margin: auto;
+    max-width: 550px;
+    font: 15px arial, sans-serif;
+    background-color: #F4F6FF;
+    /* border-style: solid;
+    border-width: 1px; */
+    padding-top: 20px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+    /* box-shadow: 5px 5px 5px grey; */
+    /* border-radius: 15px; */
+  }
+  
+  #chatborder {
+    border-style: solid;
+    background-color: #F4F6FF;
+    border-color: #FFAB40;
+    border-width: 3px;
+    /* margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px; */
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 15px;
+    border-radius: 15px;
+  }
+  
+  .chatlog {
+     font: 15px arial, sans-serif;
+     color: #727272; 
+  }
+  
+  #chatbox {
+    font: 17px arial, sans-serif;
+    height: 22px;
+    width: 100%;
+    border: 2px solid #FFAB40;
+    /* border-radius: 12px; */
+    color: #727272; 
+  }
+
+  #chatbox:focus{
+    outline-color:  #FFAB40;
+  }
+
+  h1{
+    text-align: center;
+  }
